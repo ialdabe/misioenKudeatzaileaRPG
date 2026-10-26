@@ -1,0 +1,23 @@
+[
+  {
+    "id": "1",
+    "izenburua": "Baso sorgindua",
+    "deskribapena": "Aurkitu haritz zaharraren ondoan galdutako amuletoa.",
+    "zailtasuna": "Erraza",
+    "saria": "100 urrezko txanpon"
+  },
+  {
+    "id": "2",
+    "izenburua": "Desagertutako karabana",
+    "deskribapena": "Ikertu mendateko bidean desagertutako karabanaren kasua.",
+    "zailtasuna": "Ertaina",
+    "saria": "250 urrezko txanpon eta sendatzeko edabe bat"
+  },
+  {
+    "id": "3",
+    "izenburua": "Hondakinetako zaindaria",
+    "deskribapena": "Garaitu zaindaria eta berreskuratu hondakinetako kristala.",
+    "zailtasuna": "Zaila",
+    "saria": "500 urrezko txanpon eta ezpata mitiko bat"
+  }
+]

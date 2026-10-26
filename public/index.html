@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="eu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RPG misioen kudeatzailea</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="main.js" defer></script>
+</head>
+<body>
+  <main>
+    <header>
+      <h1>RPG misioen kudeatzailea</h1>
+      <p>Sortu eta antolatu zure jokoaren abenturak.</p>
+    </header>
+
+    <section>
+      <h2>Misio berria</h2>
+      <form id="misio-formularioa">
+        <label for="izenburua">Misioaren izenburua</label>
+        <input id="izenburua" name="izenburua" type="text" required placeholder="Baso sorgindua">
+
+        <label for="deskribapena">Deskribapena</label>
+        <textarea id="deskribapena" name="deskribapena" rows="3" required placeholder="Deskribatu misioaren helburua"></textarea>
+
+        <label for="zailtasuna">Zailtasuna</label>
+        <select id="zailtasuna" name="zailtasuna" required>
+          <option value="">Aukeratu zailtasun bat</option>
+          <option value="Erraza">Erraza</option>
+          <option value="Ertaina">Ertaina</option>
+          <option value="Zaila">Zaila</option>
+        </select>
+
+        <label for="saria">Saria</label>
+        <input id="saria" name="saria" type="text" required placeholder="100 urrezko txanpon">
+        <button type="submit">Gehitu misioa</button>
+      </form>
+    </section>
+
+    <section>
+      <h2>Uneko misioak</h2>
+      <div class="ekintzak">
+        <button id="ezabatu-dena" type="button" class="arriskua">Ezabatu dena</button>
+        <button id="igo-zerbitzarira" type="button" disabled>Igo zerbitzarira</button>
+        <button id="jaitsi-zerbitzaritik" type="button" disabled>Jaitsi zerbitzaritik</button>
+      </div>
+      <p class="laguntza">Zerbitzariaren botoiak 2. fasean aktibatuko dira.</p>
+      <p id="mezua"></p>
+      <p id="zerrenda-hutsa">Oraindik ez dago misiorik.</p>
+      <ul id="misio-zerrenda"></ul>
+    </section>
+  </main>
+</body>
+</html>
