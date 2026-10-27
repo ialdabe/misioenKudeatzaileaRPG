@@ -1,6 +1,6 @@
 # RPG misioen kudeatzailea — hasierako txantiloia
 
-Web Sistemak irakasgaiko V. laborategiaren eskeletoa.
+Web Sistemak irakasgaiko IV. laborategiaren eskeletoa.
 
 ## Egitura
 
